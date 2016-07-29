@@ -1,9 +1,6 @@
 package gyanani.harish.myandroidbasefiles.android_base_files;
 
-/**
- * Created by Víctor Almaraz on 16/04/2016.
- * http://www.valmaraz.com
- */
+
 public class Log {
 
     public static void i(String tag, String string) {
