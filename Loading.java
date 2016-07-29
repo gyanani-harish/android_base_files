@@ -1,4 +1,4 @@
-package com.commonutils;
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
 public interface Loading {
     public static final boolean DONT_SHOW_LOADING = false;

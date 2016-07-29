@@ -1,13 +1,9 @@
-package com.commonutils;
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
-/**
- * Created by b on 6/22/2016.
- */
-
-public abstract class AbstractRequest implements com.commonutils.IRequest {
+public abstract class AbstractRequest implements IRequest {
     @Override
     public boolean shouldShowLoading() {
-        return com.commonutils.Loading.SHOW_LOADING;
+        return Loading.SHOW_LOADING;
     }
 
     @Override

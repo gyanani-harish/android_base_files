@@ -1,5 +1,4 @@
-package com.commonutils;
-
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
 
 public abstract class AbstractGetRequest extends AbstractRequest {

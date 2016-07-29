@@ -1,10 +1,6 @@
-package com.commonutils;
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
 import android.content.Context;
-
-/**
- * Created by b on 6/22/2016.
- */
 
 public interface IRequest {
     String getPostRequestParams();

@@ -1,8 +1,4 @@
-package com.commonutils;
-
-/**
- * Created by b on 6/22/2016.
- */
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
 public abstract class AbstractPostRequest extends AbstractRequest {
     @Override

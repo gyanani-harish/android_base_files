@@ -1,15 +1,14 @@
-package com.commonutils;
-
+package gyanani.harish.myandroidbasefiles.android_base_files;
 
 import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import static com.commonutils.RequestType.GET;
-import static com.commonutils.RequestType.POST;
 
-@IntDef({GET, POST})
+
+@IntDef({gyanani.harish.myandroidbasefiles.android_base_files.RequestType.GET,
+        gyanani.harish.myandroidbasefiles.android_base_files.RequestType.POST})
 @Retention(RetentionPolicy.SOURCE)
 public @interface RequestType {
 
