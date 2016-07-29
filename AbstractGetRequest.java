@@ -1,8 +1,6 @@
 package com.commonutils;
 
-/**
- * Created by b on 6/22/2016.
- */
+
 
 public abstract class AbstractGetRequest extends AbstractRequest {
     @Override
