@@ -9,11 +9,9 @@ import android.text.method.PasswordTransformationMethod;
 import android.util.AttributeSet;
 import android.widget.EditText;
 
-import net.sar.usitterz.R;
+import gyanani.harish.myandroidbasefiles.R;
 
-/**
- * Created by Sarjeet Singh on 23-May-16.
- */
+
 public class AppEditText extends EditText {
     public AppEditText(Context context, AttributeSet attrs) {
         super(context, attrs);

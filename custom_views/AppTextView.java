@@ -8,11 +8,8 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import net.sar.usitterz.R;
+import gyanani.harish.myandroidbasefiles.R;
 
-/**
- * Created by Sarjeet Singh on 23-May-16.
- */
 public class AppTextView extends TextView {
 
     public AppTextView(Context context, AttributeSet attrs) {
