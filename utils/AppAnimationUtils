@@ -1,0 +1,17 @@
+package utils;
+
+import android.view.animation.Animation;
+import android.widget.ImageView;
+
+import com.base.R;
+
+public class AppAnimationUtils {
+    public static Animation zoomOut(ImageView imageView) {
+        Animation animScale = android.view.animation.AnimationUtils.loadAnimation(
+                imageView.getContext(),
+                R.anim.zoomout);
+        imageView.startAnimation(animScale);
+
+        return animScale;
+    }
+}
